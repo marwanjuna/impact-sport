@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quando&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* tambah background */
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  background-image: url('/assets/img/fionn-grosse-G5uasfXjZdc-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.header-container .header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 80px;
+  align-items: center;
+}
+.header-container .header .logo {
+  font-size: 1.5em;
+}
+.header-container .header .logo h3 a {
+  text-decoration: none;
+  color: white;
+}
+.header-container .header .list-menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container .header .list-menu li {
+  list-style: none;
+}
+.header-container .header .list-menu li a {
+  text-decoration: none;
+  color: white;
+}
+.header-container .header .list-menu li a:hover {
+  color: #cecccf;
+}
+
+.content-wrapper {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.content-wrapper .content {
+  width: 80%;
+  margin: 0 auto;
+}
+.content-wrapper .content .content-satu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+}
+.content-wrapper .content .content-satu-wrapper .bigger-text {
+  width: 50%;
+  font-size: 27px;
+}
+.content-wrapper .content .content-satu-wrapper .bigger-text h1 {
+  margin: 1em 0;
+}
+.content-wrapper .content .content-satu-wrapper .imgbg {
+  display: flex;
+  justify-content: flex-end;
+}
+.content-wrapper .content .content-satu-wrapper .imgbg img {
+  width: 100%;
+}
+
+/* tambah highlight buat h1 */
+mark {
+  color: white;
+  background-color: black;
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.footer-wrapper .footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
